@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pessoal</title>
+    <link rel="stylesheet" href="./css/style.css"> <!--Link do style.css-->
+</head>
+<body>
+
+
+    <!-- Agrupa meu site para criar o efeito de cartão -->
+    <div class="container"> 
+        <!-- Topo do site -->
+        <header>
+            <!-- Menu -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">
+                            HOME
+                        </a>
+                    </li>
+                    <li>
+                            |
+                    </li>
+                    <li>
+                        <a href="#">
+                            PORTIFÓLIO
+                        </a> 
+                    </li>
+                    <li>
+                            |
+                    </li>
+                    <li>
+                        <a href="#">
+                            CONTATO
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!--Efeito de risco -->
+            <hr id="line">
+        </header>
+        <main>
+            <!-- Foto -->
+            <section class="profile">
+                <img src="./img/logo.jpg" alt="Foto Pessoal">
+            </section>
+            <!-- Conteúdo -->
+            <section class="content">
+                <article >
+                    <!-- Home -->
+                    <section class="pages">
+                        <h1>
+                            Home
+                            <a>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat 
+                                dolorem beatae assumenda id accusantium numquam corporis esse repudiandae? 
+                                Veniam quia provident fugiat error at nisi ad minima explicabo iusto.
+                            </a>    
+                        </h1>
+                    </section>
+                    <!-- Portifólio -->
+                    <section class="pages">
+                        <h1>
+                            Portifólio
+                            <a>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam impedit quod, 
+                                libero accusamus mollitia quis repellendus, sunt possimus corrupti amet quam, 
+                                reiciendis architecto iusto ex? Tempora amet dolorem excepturi ipsa.
+                            </a>
+                        </h1>
+                    </section>
+                    <!-- Contato -->
+                    <section class="pages">
+                        <h1>
+                            CONTATO
+                        </h1>
+                        <form id="formtext" action="#" method="post" >
+                                <div class="formbox0"">
+                                <input type="text" id="frmnome" name="nome" placeholder="Nome" required>
+                                <input type="tel" id="frmtel" name="telefone" placeholder="Telefone" required>
+                                
+                            </div>
+                            <div class="formbox0"> 
+                                
+                                <input type="email" id="frmemail" name="email" placeholder="E-mail" required>
+                                <input type="text" id="frmassunto" name="assunto" placeholder="Assunto" required>
+                            </div>
+                            <!--
+                            <select id="selassunto" name="assunto">
+                                <option disabled selected value="Selecione uma opção">Selecione uma opção</option>
+                                <option value="Contratação">Contratação</option>
+                                <option value="Parceria">Parceria</option>
+                                <option value="Tomar um Café">Tomar um café</option>
+                            </select>
+                            -->
+                            <div class="msgbox0">
+                                <textarea id="frmmsg" cols="20" rows="5" name="mensagem" placeholder="Mensagem"></textarea>
+                                <input type="submit" id="frmbtn" name="botao" value="Enviar mensagem">
+                            </div>
+                        </form>
+                    </section>
+                </article>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
