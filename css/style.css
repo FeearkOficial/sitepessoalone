@@ -22,27 +22,27 @@ body{
     transition: transform 0.3s ease-in-out;
     align-items: end;
 }
-p, h1 {
+p, h1{
     margin-bottom: 15px;
 }
 /*Formatação do menu*/
-nav ul {
+nav ul{
     list-style: none;
     display: flex;
     gap: 10px;
 }
-nav ul li {
+nav ul li{
     display: inline;
     font-size: 24px;
     color: #fff;
 }
-nav ul li a {
+nav ul li a{
     text-decoration: none;
     color: #fff;
     font-weight: bold;
 }
 nav ul li a:hover{
-    color: rgb(255, 0, 0);
+    color: #5e5a5a;
 }
 #line{
     width: 100%;
@@ -52,36 +52,35 @@ nav ul li a:hover{
     margin: 0px 0px;
 }
 /* Formatação foto principal */
-main {
+main{
     display: flex;
     width: 100%;
 }
-.profile {
-    width: 300px;
+.profile{
+    height: 300px;
     margin-right: 20px;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
 }
-.profile img {
+.profile img{
     height: 300px;
     border-radius: 50%;
 }
 .content{
     width:100% ;
 }
-.pages {
+.pages{
     padding: 20px;
     display: none;
     width: 100%;
-    color: rgb(255, 255, 255);
+    color: rgb(180, 177, 177);
     text-align: center;
     font-size: 22px;
 }
 .pages:last-child{
     display: block;
 }
-
 /* Formatação do formulário */
 form{
     display: flex;
@@ -91,19 +90,24 @@ form input, textarea{
     width: 100%;
     margin: 5px;
     border-radius: 15px ;
-    border-color: #333541;
+    border-color: #282a33;
     text-align: center;
     background-color: #1E1F26;
     color: #ffffff;
-    box-shadow: 0 10px 30px rgba(81, 35, 90, 0.5);
-    font-style: italic;
-}
-textarea{
     resize: none;
-    
 }
 .formbox0{
     display: flex;
     justify-content: space-between;
 }
-
+/* Formatação caixa de mensagem */
+.formbox01{
+    display: flex;
+}
+/* Formatação botão ENVIAR */
+.formbox02{
+    width: 20%;
+    display: flex;
+    margin-left: auto;
+    
+}
